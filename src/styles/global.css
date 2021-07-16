@@ -1,0 +1,17 @@
+html {
+    background-color: #513B56;
+  }
+
+  h1, p, a {
+      text-align: center;
+      color: azure;
+      text-decoration: none;
+  }
+
+  h1 {
+      font-size: 1.3em;
+      background: #BCE784;
+      max-width: 10em;
+      padding: .5em .8em;
+      margin: 1em;
+  }
