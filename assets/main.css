@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo-aa {
@@ -24,6 +25,7 @@ body {
 
 .logo-iq {
     max-width: 8em;
+    margin-right: 1em;
 }
 
 iframe {
