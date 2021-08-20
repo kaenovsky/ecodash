@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+
+body {
+    background: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background: #191818;
+    padding: .4em 1em;    
+}
+
+.nav-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.logo-aa {
+    max-width: 8em;
+}
+
+.logo-iq {
+    max-width: 8em;
+}
+
+iframe {
+    min-height: 100vh;
+    position: absolute;
+    top: -4px;
+}
+
+.navbar-map {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: #191818;
+    padding: 1em;
+    min-height: 5em;
+    width: 98%;
+}
+
+.map {
+    min-height: 90vh;
+    width: 100%;
+    background: url('./img/full-web-map.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.wrap-map-link {
+    color: #FFF;
+    max-width: 40em;
+    margin: 0 auto;
+    padding-top: 8em;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.wrap-map-link h2 {
+    font-weight: 300;
+}
+
+.btn {
+    padding: .5em 3em;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-default {
+    background: #FFF;
+    color: #191818;
+}
+
+.btn-default:hover {
+    background: #191818;
+    color: #FFF;
+}
+
+.iqstats {
+    min-height: 10em;
+    background: #FDD64B;
+}
