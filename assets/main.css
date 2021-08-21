@@ -34,6 +34,24 @@ iframe {
     top: -4px;
 }
 
+.nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.nav li {
+    margin: 0 1.5em;
+    list-style: none;
+}
+
+.btn-nav {
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .navbar-map {
     position: absolute;
     top: 0;
