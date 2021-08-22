@@ -24,8 +24,18 @@ body {
 }
 
 .logo-iq {
-    max-width: 8em;
+    max-width: 4em;
     margin-right: 1em;
+}
+
+.iqlogo-wrap {
+    display: flex;
+    flex-flow: column;
+}
+
+.powered {
+    color: #FFF;
+    font-size: .7em;
 }
 
 iframe {
@@ -41,7 +51,7 @@ iframe {
 }
 
 .nav li {
-    margin: 0 1.5em;
+    margin: 0 1em;
     list-style: none;
 }
 
@@ -68,30 +78,49 @@ iframe {
     background: url('./img/full-web-map.png');
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-flow: column;
 }
 
 .wrap-map-link {
     color: #FFF;
-    max-width: 40em;
+    max-width: 47em;
     margin: 0 auto;
-    padding-top: 8em;
+    padding-top: 10em;
     text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 h1 {
     font-weight: 900;
+    font-size: 3.5em;
+    margin: 0;
 }
 
 .wrap-map-link h2 {
+    text-align: left;
     font-weight: 300;
+    margin: 0;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.vermapa {
+    max-width: 13em;
+    margin-top: 1.5em;
 }
 
 .btn {
-    padding: .5em 3em;
+    padding: 1em 2em;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: .9em;
 }
 
 .btn-default {
@@ -102,6 +131,12 @@ h1 {
 .btn-default:hover {
     background: #191818;
     color: #FFF;
+}
+
+.disclosure {
+    color: #FFF;
+    margin-top: auto;
+    padding: 0 3.5em;
 }
 
 .iqstats {
