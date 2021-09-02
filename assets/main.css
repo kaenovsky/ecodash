@@ -141,7 +141,7 @@ h1 {
 .iqstats {
     min-height: 10em;
     background: #FDD64B;
-    padding-top: 2em;
+    padding: 1em .5em;
     margin: 0 auto;
     text-align: center;
     font-size: 2em;
