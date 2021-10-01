@@ -147,6 +147,10 @@ h1 {
     font-size: 2em;
 }
 
+.iqstats p {
+    font-size: .5em;
+}
+
 .iqlogo-wrap {
     margin-right: 1em;
 }
