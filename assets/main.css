@@ -140,11 +140,16 @@ h1 {
 
 .iqstats {
     min-height: 10em;
-    background: #FDD64B;
+    color: #FFF;
+    background: #1E1E1E;
     padding: 1em .5em;
     margin: 0 auto;
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
+}
+
+.iqstats-wrapper {
+    margin: 0 auto;
 }
 
 .iqstats p {
@@ -153,6 +158,19 @@ h1 {
 
 .iqlogo-wrap {
     margin-right: 1em;
+}
+
+footer {
+    background: #1E1E1E;
+    color: #FFF;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer a {
+    color: #FFF;
 }
 
 /* Small devices (landscape phones, less than 768px) */

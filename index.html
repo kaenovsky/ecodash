@@ -8,28 +8,28 @@
     <title>Acuerdo Ambiental</title>
 </head>
 <body>
-    <div class="app">
-        <div class="navbar">
-            <div class="nav-wrap">
-                <div>
-                    <img class= "logo-aa" src="./assets/img/acuerdo-logo.png" alt="logo del programa acuerdo ambiental">
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li><a class="btn-nav" href="#">Que es esto</a></li>
-                        <li><a class="btn-nav" href="#">Cambio climatico</a></li>
-                        <li><a class="btn-nav" href="#">Como ayudar</a></li>
-                    </ul>
-                </div>
-                <div class="iqlogo-wrap">
-                    <span class="powered">powered by</span>
-                    <a href="https://iqair.com">                    
-                        <img class= "logo-iq" src="./assets/img/ic-logo-iq-air-blue.svg" alt="logo IQAir">
-                    </a>
-                </div>               
+    <nav class="navbar">
+        <div class="nav-wrap">
+            <div>
+                <img class= "logo-aa" src="./assets/img/acuerdo-logo.png" alt="logo del programa acuerdo ambiental">
             </div>
+            <div class="nav">
+                <ul>
+                    <li><a class="btn-nav" href="#">Que es esto</a></li>
+                    <li><a class="btn-nav" href="#">Cambio climatico</a></li>
+                    <li><a class="btn-nav" href="#">Como ayudar</a></li>
+                </ul>
+            </div>
+            <div class="iqlogo-wrap">
+                <span class="powered">powered by</span>
+                <a href="https://iqair.com">                    
+                    <img class= "logo-iq" src="./assets/img/ic-logo-iq-air-blue.svg" alt="logo IQAir">
+                </a>
+            </div>               
         </div>
-        <div class="map">
+    </nav>
+    <main class="app">        
+        <section class="map">
             <div class="wrap-map-link">
                 <h1>CALIDAD DEL AIRE</h1>
                 <div class="subtitle">
@@ -48,11 +48,13 @@
                     Todos los datos abiertos son provistos por IQAir.
                 </p>
             </div>            
-        </div>
-        <div class="iqstats">
-            <div name="airvisual_widget" key="61579b4b68d5462631ab87f0"></div>
-            <p>Atención: esta versión es una demo. <a href="https://www.figma.com/file/iubdBWfzrBFaA6xIFe2Vo7/Acuerdo-Ambiental-Dash?node-id=0%3A1">Ver mockup completo.</a></p>
-        </div>
+        </section>
+        <section class="iqstats">
+            <div class="iqstats-wrapper">
+                <h2>Medidor de calidad del aire ubicado en El Rodeo, Ambato, Catamarca.</h2>
+                <div name="airvisual_widget" key="61579b4b68d5462631ab87f0"></div>
+            </div>
+        </section>
         <div class="banner-fuego">
 
         </div>
@@ -65,7 +67,11 @@
         <div class="earth">
 
         </div>
-    </div>
+    </main>
+    <footer>
+        <p>fuegos.ar es una iniciativa sin fines de lucro de Acuerdo Ambiental, con el apoyo de IQair</p>
+        <p>esta versión es una demo. <a href="https://www.figma.com/file/iubdBWfzrBFaA6xIFe2Vo7/Acuerdo-Ambiental-Dash?node-id=0%3A1">Ver mockup completo.</a></p>
+    </footer>
     <script type="text/javascript" src="https://cdn.airvisual.net/assets/widgets/widget_v3.0.js"></script>
 </body>
 </html>
