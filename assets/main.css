@@ -140,24 +140,24 @@ h1 {
 
 .iqstats {
     min-height: 10em;
-    color: #FFF;
-    background: #1E1E1E;
-    padding: 1em .5em;
+    color: #1E1E1E;
+    background: #8C8C8CCF;
     margin: 0 auto;
     text-align: center;
     font-size: 1em;
+    border-top: 20px solid #1e1e1e;
 }
 
 .iqstats-wrapper {
     margin: 0 auto;
 }
 
-.iqstats p {
-    font-size: .5em;
-}
-
 .iqlogo-wrap {
     margin-right: 1em;
+}
+
+.widget-air {
+    width: 100%;
 }
 
 footer {
