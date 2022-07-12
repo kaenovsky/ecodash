@@ -17,6 +17,7 @@ body {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    height: 51px;
 }
 
 .logo-aa {
@@ -66,8 +67,7 @@ iframe {
     position: fixed;
     z-index: 1;
     background: #191818;
-    padding: 1em;
-    min-height: 5em;
+    height: 51px;
     width: 100%;
 }
 
