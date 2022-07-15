@@ -79,14 +79,13 @@ iframe {
     background-size: cover;
     display: flex;
     flex-flow: column;
+    justify-content: space-between;
 }
 
 .wrap-map-link {
     color: #FFF;
-    max-width: 47em;
     margin: 0 auto;
     padding-top: 10em;
-    text-align: center;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -94,7 +93,7 @@ iframe {
 
 h1 {
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 5em;
     margin: 0;
 }
 
@@ -102,11 +101,13 @@ h1 {
     text-align: left;
     font-weight: 300;
     margin: 0;
+    font-size: 2em;
 }
 
 .subtitle {
     text-align: center;
     padding: .8em;
+    max-width: 60em;
 }
 
 .vermapa {
@@ -135,8 +136,9 @@ h1 {
 
 .disclosure {
     color: #FFF;
-    margin-top: auto;
-    padding: 0 4em;
+    margin: 0 auto;
+    padding: 0 4em;    
+    max-width: 60em;
 }
 
 .iqstats {
@@ -187,15 +189,13 @@ footer a {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 576px) { 
+    
     .nav {
         display: none;
     }
-    .wrap-map-link {
-        padding: 4em 1em;
-    }
-    .disclosure {
-        padding: 0 .4em;
-    }
+    
+    /* hide non-responsive widget elements */
+
     div.itemAirvisualWidget:nth-child(5),
     div.itemAirvisualWidget:nth-child(7) {
         display: none !important;
@@ -203,7 +203,33 @@ footer a {
     .iqstats p {
         max-width: 16em;
     }
+ }
+
+ @media (max-width: 790px) {
+    h1 {
+        font-size: 3em;
+    }
     .wrap-map-link {
-        max-width: 21em;
+        padding-top: 5em;
+    }
+    .wrap-map-link h2 {
+        font-size: 1.3em;
+    }
+    .disclosure {
+        padding: 0 1em;
+    }
+    .disclosure p {
+        font-size: .8em;
+    }
+ }
+
+ /* xs devices (less than 440px) */
+
+ @media (max-width: 440px) {
+    h1 {
+        font-size: 2em;
+    }
+    .wrap-map-link h2 {
+        font-size: 1em;
     }
  }
