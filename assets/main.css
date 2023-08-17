@@ -39,7 +39,7 @@ body {
     font-size: .7em;
 }
 
-.widget-air iframe {
+.widget-air iframe, .map-full iframe {
     min-height: 100vh;
     position: absolute;
     top: -4px;
